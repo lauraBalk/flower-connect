@@ -14,7 +14,6 @@ Encore
     // will output as web/build/app.js
     // .addEntry('app', './assets/js/main.js')
      .addEntry('app', [
-    './assets/js/modernizr-2.6.2.min.js',
     './assets/js/jquery.min.js',
     './assets/js/jquery.easing.1.3.js',
     './assets/js/bootstrap.min.js',
@@ -23,8 +22,10 @@ Encore
     './assets/js/jquery.magnific-popup.min.js',
     './assets/js/magnific-popup-options.js',
     './assets/js/jquery.style.switcher.js',
+    './assets/js/main-switcher.js',
     './assets/js/main.js',
     './assets/js/jquery.cookie.js',
+    './assets/js/main-layout.js'
     ])
 
      .addStyleEntry('global', [
@@ -45,7 +46,9 @@ Encore
 
     ])
 
-     .addStyleEntry('style', './assets/css/style.css')
+     .addStyleEntry('style-switch', './assets/css/style.css')
+
+     .addStyleEntry('switcher', './assets/css/switcher.css')
 
     // will output as web/build/global.css
     //.addStyleEntry('global', './assets/css/global.scss')

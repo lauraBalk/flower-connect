@@ -18,5 +18,6 @@
   "build/images/icomoon.svg?srf3rx": "/build/images/icomoon.4a8a5bc5.svg",
   "build/images/white_wave.png": "/build/images/white_wave.a69b983d.png",
   "build/images/white_wave_@2X.png": "/build/images/white_wave_@2X.60cb9e77.png",
-  "build/style.css": "/build/style.css"
+  "build/style-switch.css": "/build/style-switch.css",
+  "build/switcher.css": "/build/switcher.css"
 }
