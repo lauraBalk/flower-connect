@@ -20,7 +20,7 @@ class Temperature
     /**
      * @var float
      *
-     * @ORM\Column(name="value", type="float")
+     * @ORM\Column(name="value", type="decimal", precision=10, scale=2)
      */
     private $value;
 
