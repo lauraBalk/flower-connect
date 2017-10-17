@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2fd0a737-c11e-400b-bfed-eb267412db09" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/flower-connect.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/symfony_requirements" afterPath="$PROJECT_DIR$/bin/symfony_requirements" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Moisture.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Moisture.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Profil.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Profil.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1508274633159" expanded="true" signature="122:168" ph=" @ORM\Entity ..." />
+                <marker date="1508274633159" expanded="true" signature="193:293" ph=" @ORM\Id ..." />
+                <marker date="1508274633159" expanded="true" signature="323:408" ph=" @var float ..." />
+                <marker date="1508274633159" expanded="true" signature="445:533" ph=" @var float ..." />
+                <marker date="1508274633159" expanded="true" signature="573:640" ph=" @ORM\OneToMany(targetEntity=&quot;Profil&quot;, mappedBy=&quot;pot&quot;) ..." />
+                <marker date="1508274633159" expanded="true" signature="698:786" ph="{...}" />
+                <marker date="1508274633159" expanded="true" signature="795:845" ph=" Get id ..." />
+                <marker date="1508274633159" expanded="true" signature="875:913" ph="{...}" />
+                <marker date="1508274633159" expanded="true" signature="922:1020" ph=" Set minMoisture ..." />
+                <marker date="1508274633159" expanded="true" signature="1071:1149" ph="{...}" />
+                <marker date="1508274633159" expanded="true" signature="1158:1215" ph=" Get minMoisture ..." />
+                <marker date="1508274633159" expanded="true" signature="1254:1301" ph="{...}" />
+                <marker date="1508274633159" expanded="true" signature="1310:1414" ph=" Set maxTemperature ..." />
+                <marker date="1508274633159" expanded="true" signature="1471:1555" ph="{...}" />
+                <marker date="1508274633159" expanded="true" signature="1564:1624" ph=" Get maxTemperature ..." />
+                <marker date="1508274633159" expanded="true" signature="1666:1716" ph="{...}" />
+                <marker date="1508274633159" expanded="true" signature="1725:1820" ph=" Add pot ..." />
+                <marker date="1508274633159" expanded="true" signature="1877:1942" ph="{...}" />
+                <marker date="1508274633159" expanded="true" signature="1951:2023" ph=" Remove pot ..." />
+                <marker date="1508274633159" expanded="true" signature="2083:2137" ph="{...}" />
+                <marker date="1508274633159" expanded="true" signature="2146:2230" ph=" Get pots ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Temperature.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Temperature.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1467">
+              <caret line="160" column="120" lean-forward="false" selection-start-line="160" selection-start-column="120" selection-end-line="160" selection-end-column="120" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="36" column="233" lean-forward="false" selection-start-line="36" selection-start-column="233" selection-end-line="36" selection-end-column="233" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pot.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Pot.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1508274633159" expanded="true" signature="122:165" ph=" @ORM\Entity ..." />
+                <marker date="1508274633159" expanded="true" signature="187:287" ph=" @ORM\Id ..." />
+                <marker date="1508274633159" expanded="true" signature="317:407" ph=" @var string ..." />
+                <marker date="1508274633159" expanded="true" signature="436:527" ph=" @var string ..." />
+                <marker date="1508274633159" expanded="true" signature="557:626" ph=" @ORM\OneToMany(targetEntity=&quot;Moisture&quot;, mappedBy=&quot;pot&quot;) ..." />
+                <marker date="1508274633159" expanded="true" signature="661:733" ph=" @ORM\OneToMany(targetEntity=&quot;Temperature&quot;, mappedBy=&quot;pot&quot;) ..." />
+                <marker date="1508274633159" expanded="true" signature="771:909" ph=" @ORM\ManyToOne(targetEntity=&quot;Profil&quot;, inversedBy=&quot;pots&quot;) ..." />
+                <marker date="1508274633159" expanded="true" signature="969:1115" ph="{...}" />
+                <marker date="1508274633159" expanded="true" signature="1124:1174" ph=" Get id ..." />
+                <marker date="1508274633159" expanded="true" signature="1204:1242" ph="{...}" />
+                <marker date="1508274633159" expanded="true" signature="1251:1331" ph=" Set mac ..." />
+                <marker date="1508274633159" expanded="true" signature="1366:1428" ph="{...}" />
+                <marker date="1508274633159" expanded="true" signature="1437:1487" ph=" Get mac ..." />
+                <marker date="1508274633159" expanded="true" signature="1518:1557" ph="{...}" />
+                <marker date="1508274633159" expanded="true" signature="1566:1648" ph=" Set name ..." />
+                <marker date="1508274633159" expanded="true" signature="1685:1749" ph="{...}" />
+                <marker date="1508274633159" expanded="true" signature="1758:1809" ph=" Get name ..." />
+                <marker date="1508274633159" expanded="true" signature="1841:1881" ph="{...}" />
+                <marker date="1508274633159" expanded="true" signature="1890:2000" ph=" Add moisture ..." />
+                <marker date="1508274633159" expanded="true" signature="2072:2147" ph="{...}" />
+                <marker date="1508274633159" expanded="true" signature="2156:2243" ph=" Remove moisture ..." />
+                <marker date="1508274633159" expanded="true" signature="2318:2382" ph="{...}" />
+                <marker date="1508274633159" expanded="true" signature="2391:2480" ph=" Get moistures ..." />
+                <marker date="1508274633159" expanded="true" signature="2517:2562" ph="{...}" />
+                <marker date="1508274633159" expanded="true" signature="2571:2690" ph=" Add temperature ..." />
+                <marker date="1508274633159" expanded="true" signature="2771:2852" ph="{...}" />
+                <marker date="1508274633159" expanded="true" signature="2861:2957" ph=" Remove temperature ..." />
+                <marker date="1508274633159" expanded="true" signature="3041:3111" ph="{...}" />
+                <marker date="1508274633159" expanded="true" signature="3120:3212" ph=" Get temperatures ..." />
+                <marker date="1508274633159" expanded="true" signature="3252:3300" ph="{...}" />
+                <marker date="1508274633159" expanded="true" signature="3309:3413" ph=" Set profil ..." />
+                <marker date="1508274633159" expanded="true" signature="3486:3554" ph="{...}" />
+                <marker date="1508274633159" expanded="true" signature="3563:3634" ph=" Get profil ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/User.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="1535" />
+    <option name="height" value="904" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="flower-connect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flower-connect" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="flower-connect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flower-connect" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="flower-connect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flower-connect" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="flower-connect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flower-connect" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="flower-connect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flower-connect" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="default" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="flower-connect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flower-connect" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="flower-connect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flower-connect" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="/usr/bin/node" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../php/workWebsite" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2fd0a737-c11e-400b-bfed-eb267412db09" name="Default" comment="" />
+      <created>1508239432746</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1508239432746</updated>
+      <workItem from="1508239434100" duration="1995000" />
+      <workItem from="1508274588948" duration="739000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2734000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="-4" width="1537" height="912" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2495114" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Moisture.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Profil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508274633159" expanded="true" signature="122:168" ph=" @ORM\Entity ..." />
+            <marker date="1508274633159" expanded="true" signature="193:293" ph=" @ORM\Id ..." />
+            <marker date="1508274633159" expanded="true" signature="323:408" ph=" @var float ..." />
+            <marker date="1508274633159" expanded="true" signature="445:533" ph=" @var float ..." />
+            <marker date="1508274633159" expanded="true" signature="573:640" ph=" @ORM\OneToMany(targetEntity=&quot;Profil&quot;, mappedBy=&quot;pot&quot;) ..." />
+            <marker date="1508274633159" expanded="true" signature="698:786" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="795:845" ph=" Get id ..." />
+            <marker date="1508274633159" expanded="true" signature="875:913" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="922:1020" ph=" Set minMoisture ..." />
+            <marker date="1508274633159" expanded="true" signature="1071:1149" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="1158:1215" ph=" Get minMoisture ..." />
+            <marker date="1508274633159" expanded="true" signature="1254:1301" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="1310:1414" ph=" Set maxTemperature ..." />
+            <marker date="1508274633159" expanded="true" signature="1471:1555" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="1564:1624" ph=" Get maxTemperature ..." />
+            <marker date="1508274633159" expanded="true" signature="1666:1716" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="1725:1820" ph=" Add pot ..." />
+            <marker date="1508274633159" expanded="true" signature="1877:1942" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="1951:2023" ph=" Remove pot ..." />
+            <marker date="1508274633159" expanded="true" signature="2083:2137" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="2146:2230" ph=" Get pots ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Temperature.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Pot.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508274633159" expanded="true" signature="122:165" ph=" @ORM\Entity ..." />
+            <marker date="1508274633159" expanded="true" signature="187:287" ph=" @ORM\Id ..." />
+            <marker date="1508274633159" expanded="true" signature="317:407" ph=" @var string ..." />
+            <marker date="1508274633159" expanded="true" signature="436:527" ph=" @var string ..." />
+            <marker date="1508274633159" expanded="true" signature="557:626" ph=" @ORM\OneToMany(targetEntity=&quot;Moisture&quot;, mappedBy=&quot;pot&quot;) ..." />
+            <marker date="1508274633159" expanded="true" signature="661:733" ph=" @ORM\OneToMany(targetEntity=&quot;Temperature&quot;, mappedBy=&quot;pot&quot;) ..." />
+            <marker date="1508274633159" expanded="true" signature="771:909" ph=" @ORM\ManyToOne(targetEntity=&quot;Profil&quot;, inversedBy=&quot;pots&quot;) ..." />
+            <marker date="1508274633159" expanded="true" signature="969:1115" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="1124:1174" ph=" Get id ..." />
+            <marker date="1508274633159" expanded="true" signature="1204:1242" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="1251:1331" ph=" Set mac ..." />
+            <marker date="1508274633159" expanded="true" signature="1366:1428" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="1437:1487" ph=" Get mac ..." />
+            <marker date="1508274633159" expanded="true" signature="1518:1557" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="1566:1648" ph=" Set name ..." />
+            <marker date="1508274633159" expanded="true" signature="1685:1749" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="1758:1809" ph=" Get name ..." />
+            <marker date="1508274633159" expanded="true" signature="1841:1881" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="1890:2000" ph=" Add moisture ..." />
+            <marker date="1508274633159" expanded="true" signature="2072:2147" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="2156:2243" ph=" Remove moisture ..." />
+            <marker date="1508274633159" expanded="true" signature="2318:2382" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="2391:2480" ph=" Get moistures ..." />
+            <marker date="1508274633159" expanded="true" signature="2517:2562" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="2571:2690" ph=" Add temperature ..." />
+            <marker date="1508274633159" expanded="true" signature="2771:2852" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="2861:2957" ph=" Remove temperature ..." />
+            <marker date="1508274633159" expanded="true" signature="3041:3111" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="3120:3212" ph=" Get temperatures ..." />
+            <marker date="1508274633159" expanded="true" signature="3252:3300" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="3309:3413" ph=" Set profil ..." />
+            <marker date="1508274633159" expanded="true" signature="3486:3554" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="3563:3634" ph=" Get profil ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Pot.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508274633159" expanded="true" signature="122:165" ph=" @ORM\Entity ..." />
+            <marker date="1508274633159" expanded="true" signature="187:287" ph=" @ORM\Id ..." />
+            <marker date="1508274633159" expanded="true" signature="317:407" ph=" @var string ..." />
+            <marker date="1508274633159" expanded="true" signature="436:527" ph=" @var string ..." />
+            <marker date="1508274633159" expanded="true" signature="557:626" ph=" @ORM\OneToMany(targetEntity=&quot;Moisture&quot;, mappedBy=&quot;pot&quot;) ..." />
+            <marker date="1508274633159" expanded="true" signature="661:733" ph=" @ORM\OneToMany(targetEntity=&quot;Temperature&quot;, mappedBy=&quot;pot&quot;) ..." />
+            <marker date="1508274633159" expanded="true" signature="771:909" ph=" @ORM\ManyToOne(targetEntity=&quot;Profil&quot;, inversedBy=&quot;pots&quot;) ..." />
+            <marker date="1508274633159" expanded="true" signature="969:1115" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="1124:1174" ph=" Get id ..." />
+            <marker date="1508274633159" expanded="true" signature="1204:1242" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="1251:1331" ph=" Set mac ..." />
+            <marker date="1508274633159" expanded="true" signature="1366:1428" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="1437:1487" ph=" Get mac ..." />
+            <marker date="1508274633159" expanded="true" signature="1518:1557" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="1566:1648" ph=" Set name ..." />
+            <marker date="1508274633159" expanded="true" signature="1685:1749" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="1758:1809" ph=" Get name ..." />
+            <marker date="1508274633159" expanded="true" signature="1841:1881" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="1890:2000" ph=" Add moisture ..." />
+            <marker date="1508274633159" expanded="true" signature="2072:2147" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="2156:2243" ph=" Remove moisture ..." />
+            <marker date="1508274633159" expanded="true" signature="2318:2382" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="2391:2480" ph=" Get moistures ..." />
+            <marker date="1508274633159" expanded="true" signature="2517:2562" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="2571:2690" ph=" Add temperature ..." />
+            <marker date="1508274633159" expanded="true" signature="2771:2852" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="2861:2957" ph=" Remove temperature ..." />
+            <marker date="1508274633159" expanded="true" signature="3041:3111" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="3120:3212" ph=" Get temperatures ..." />
+            <marker date="1508274633159" expanded="true" signature="3252:3300" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="3309:3413" ph=" Set profil ..." />
+            <marker date="1508274633159" expanded="true" signature="3486:3554" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="3563:3634" ph=" Get profil ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Moisture.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Profil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508274633159" expanded="true" signature="122:168" ph=" @ORM\Entity ..." />
+            <marker date="1508274633159" expanded="true" signature="193:293" ph=" @ORM\Id ..." />
+            <marker date="1508274633159" expanded="true" signature="323:408" ph=" @var float ..." />
+            <marker date="1508274633159" expanded="true" signature="445:533" ph=" @var float ..." />
+            <marker date="1508274633159" expanded="true" signature="573:640" ph=" @ORM\OneToMany(targetEntity=&quot;Profil&quot;, mappedBy=&quot;pot&quot;) ..." />
+            <marker date="1508274633159" expanded="true" signature="698:786" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="795:845" ph=" Get id ..." />
+            <marker date="1508274633159" expanded="true" signature="875:913" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="922:1020" ph=" Set minMoisture ..." />
+            <marker date="1508274633159" expanded="true" signature="1071:1149" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="1158:1215" ph=" Get minMoisture ..." />
+            <marker date="1508274633159" expanded="true" signature="1254:1301" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="1310:1414" ph=" Set maxTemperature ..." />
+            <marker date="1508274633159" expanded="true" signature="1471:1555" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="1564:1624" ph=" Get maxTemperature ..." />
+            <marker date="1508274633159" expanded="true" signature="1666:1716" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="1725:1820" ph=" Add pot ..." />
+            <marker date="1508274633159" expanded="true" signature="1877:1942" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="1951:2023" ph=" Remove pot ..." />
+            <marker date="1508274633159" expanded="true" signature="2083:2137" ph="{...}" />
+            <marker date="1508274633159" expanded="true" signature="2146:2230" ph=" Get pots ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Temperature.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1467">
+          <caret line="160" column="120" lean-forward="false" selection-start-line="160" selection-start-column="120" selection-end-line="160" selection-end-column="120" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="233" lean-forward="false" selection-start-line="36" selection-start-column="233" selection-end-line="36" selection-end-column="233" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
