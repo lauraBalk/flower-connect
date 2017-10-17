@@ -18,9 +18,48 @@ class User extends BaseUser
      */
     protected $id;
 
+    /**
+    * @ORM\ManyToMany(targetEntity="Pot",  cascade={"persist"})
+    */
+    private $pots;
+
     public function __construct()
     {
         parent::__construct();
-        // your own logic
+        $this->pots = new ArrayCollection();
+    }
+
+    /**
+     * Add pot
+     *
+     * @param \AppBundle\Entity\Pot $pot
+     *
+     * @return User
+     */
+    public function addPot(\AppBundle\Entity\Pot $pot)
+    {
+        $this->pots[] = $pot;
+
+        return $this;
+    }
+
+    /**
+     * Remove pot
+     *
+     * @param \AppBundle\Entity\Pot $pot
+     */
+    public function removePot(\AppBundle\Entity\Pot $pot)
+    {
+        $this->pots->removeElement($pot);
+    }
+
+    /**
+     * Get pots
+     *
+     * @return \Doctrine\Common\Collections\Collection
+     */
+    public function getPots()
+    {
+        return $this->pots;
     }
 }

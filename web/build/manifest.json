@@ -1,1 +1,22 @@
-{}
+{
+  "build/app.js": "/build/app.js",
+  "build/fonts/Simple-Line-Icons.eot?v=2.2.2": "/build/fonts/Simple-Line-Icons.dacd16c9.eot",
+  "build/fonts/Simple-Line-Icons.ttf?v=2.2.2": "/build/fonts/Simple-Line-Icons.b2892aa6.ttf",
+  "build/fonts/Simple-Line-Icons.woff2?v=2.2.2": "/build/fonts/Simple-Line-Icons.6ac7320f.woff2",
+  "build/fonts/Simple-Line-Icons.woff?v=2.2.2": "/build/fonts/Simple-Line-Icons.0bbfc705.woff",
+  "build/fonts/glyphicons-halflings-regular.eot": "/build/fonts/glyphicons-halflings-regular.f4769f9b.eot",
+  "build/fonts/glyphicons-halflings-regular.ttf": "/build/fonts/glyphicons-halflings-regular.e18bbf61.ttf",
+  "build/fonts/glyphicons-halflings-regular.woff": "/build/fonts/glyphicons-halflings-regular.fa277232.woff",
+  "build/fonts/glyphicons-halflings-regular.woff2": "/build/fonts/glyphicons-halflings-regular.448c34a5.woff2",
+  "build/fonts/icomoon.eot?srf3rx": "/build/fonts/icomoon.efcb1585.eot",
+  "build/fonts/icomoon.ttf?srf3rx": "/build/fonts/icomoon.6102bb09.ttf",
+  "build/fonts/icomoon.woff?srf3rx": "/build/fonts/icomoon.fba8bc5f.woff",
+  "build/global.css": "/build/global.css",
+  "build/images/Preloader_2.gif": "/build/images/Preloader_2.f676556f.gif",
+  "build/images/Simple-Line-Icons.svg?v=2.2.2": "/build/images/Simple-Line-Icons.00ce23ca.svg",
+  "build/images/glyphicons-halflings-regular.svg": "/build/images/glyphicons-halflings-regular.89889688.svg",
+  "build/images/icomoon.svg?srf3rx": "/build/images/icomoon.4a8a5bc5.svg",
+  "build/images/white_wave.png": "/build/images/white_wave.a69b983d.png",
+  "build/images/white_wave_@2X.png": "/build/images/white_wave_@2X.60cb9e77.png",
+  "build/style.css": "/build/style.css"
+}

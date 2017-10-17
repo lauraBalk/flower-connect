@@ -41,6 +41,12 @@ class Pot
      */
     private $temperatures;
 
+    /**
+     * @ORM\ManyToOne(targetEntity="Profil", inversedBy="pots")
+     * @ORM\JoinColumn(name="profil_id", referencedColumnName="id")
+     */
+     private $profil;
+
 
     public function __construct()
     {
@@ -173,5 +179,29 @@ class Pot
     public function getTemperatures()
     {
         return $this->temperatures;
+    }
+
+    /**
+     * Set profil
+     *
+     * @param \AppBundle\Entity\Profil $profil
+     *
+     * @return Pot
+     */
+    public function setProfil(\AppBundle\Entity\Profil $profil = null)
+    {
+        $this->profil = $profil;
+
+        return $this;
+    }
+
+    /**
+     * Get profil
+     *
+     * @return \AppBundle\Entity\profil
+     */
+    public function getProfil()
+    {
+        return $this->profil;
     }
 }
