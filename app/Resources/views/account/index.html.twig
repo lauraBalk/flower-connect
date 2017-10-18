@@ -1,0 +1,36 @@
+{% extends 'base.html.twig' %}
+{% block intro %}
+    <div class="fh5co-left-position">
+        <h2 class="animate-box">Welcome to your account</h2>
+         <p class="animate-box"><a href="https://vimeo.com/channels/staffpicks/93951774" class="btn btn-outline popup-vimeo btn-video"><i class="icon-play2"></i> Watch video</a> <a href="http://freehtml5.co" target="_blank" class="btn btn-primary">Visit FREEHTML5.co</a></p>
+    </div>
+{% endblock %}
+{% block body %}
+        <section id="fh5co-projects">
+            <div class="container">
+                <div class="row row-bottom-padded-md">
+                    <div class="col-md-6 col-md-offset-3 text-center">
+                        <h2 class="fh5co-lead animate-box">Your pots</h2>
+                        <p class="fh5co-sub-lead animate-box">You can connected your new pot on your website to visualize your statistic</p>
+                    </div>
+                </div>
+                <div class="row">
+                    {% for pot in user.pots %}
+                        <div class="col-md-4 col-sm-6 col-xxs-12 animate-box">
+                            <a href="images/img_1.jpg" class="fh5co-project-item image-popup">
+                                <img src="images/img_1.jpg" alt="Image" class="img-responsive">
+                                <div class="fh5co-text">
+                                    <h2>pot.name</h2>
+                                    <p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+                                </div>
+                            </a>
+                        </div>
+                    {% endfor %}          
+                </div>
+                <div class="text-center">
+                    <a href="{{ path('app_account_newpot') }}" class="btn btn-primary">Add new pot</a> 
+                </div> 
+            </div>
+        </section>
+        <!-- END #fh5co-projects -->
+{% endblock %}

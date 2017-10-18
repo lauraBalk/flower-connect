@@ -33,6 +33,13 @@ class Pot
     private $name;
 
     /**
+     * @var string
+     *
+     * @ORM\Column(name="code", type="string", length=255)
+     */
+    private $code;
+
+    /**
      * @ORM\OneToMany(targetEntity="Moisture", mappedBy="pot")
      */
     private $moistures;
@@ -88,6 +95,30 @@ class Pot
     public function getMac()
     {
         return $this->mac;
+    }
+
+    /**
+     * Set code
+     *
+     * @param string $code
+     *
+     * @return Pot
+     */
+    public function setCode($code)
+    {
+        $this->code = $code;
+
+        return $this;
+    }
+
+    /**
+     * Get code
+     *
+     * @return string
+     */
+    public function getCode()
+    {
+        return $this->code;
     }
 
     /**
