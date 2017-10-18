@@ -24,8 +24,9 @@ body.fh5co-overflow {
   overflow-x: auto;
 }
 
-.fh5co-hero {
-  background-image: url(images/hero_bg.jpg);
+#fh5co-hero {
+  background-image: url(../images/into-flower.jpg);
+  height: 468px;
 }
 
 a {

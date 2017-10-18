@@ -1,0 +1,44 @@
+{% extends "::base.html.twig" %}
+
+{% block intro %}
+    <div class="fh5co-left-position">
+        <h2 class="animate-box">Sign up on your interface flower-connect</h2>
+        <p class="animate-box"><a href="{{ path('fos_user_security_login') }}" class="btn btn-primary">Already registered ? go Login !</a></p>
+    </div>
+{% endblock %}
+
+{% block body %}
+	<section id="fh5co-projects">
+			<div class="container">
+			    <div class="row row-bottom-padded-md">
+			        <div class="col-md-6 col-md-offset-3 text-center">
+			            <h2 class="fh5co-lead animate-box">Sign up</h2>
+			        </div>
+			    </div>
+			    <div class="row">
+			        
+			        <div class="col-md-12 col-sm-12 col-xxs-12 animate-box">
+						{{ form_start(form, {'method': 'post', 'action': path('fos_user_registration_register'), 'attr': {'class': 'fos_user_registration_register'}}) }}
+							<div class="form-field">
+								<label class="form-label" for="username">Email</label>
+						    	{{ form_widget(form.email, {'attr': {'class': 'form-control'}}) }}
+						    </div>
+						    <div class="form-field">
+						     	<label class="form-label" for="username">Username</label>
+						    	{{ form_widget(form.username, {'attr': {'class': 'form-control'}}) }}
+						    </div>
+						    {% for passwordField in form.plainPassword %}
+							    <div class="form-field">
+							        {{ form_label(passwordField, null, { 'attr': {'class': 'form-label'} }) }}
+							        {{ form_widget(passwordField, { 'attr': {'class': 'form-control'} }) }}
+							    </div>
+							{% endfor %}
+							<br />
+						    <input type="submit" class="col-md-12 col-sm-12 col-xxs-12 btn btn-primary" id="_submit" name="_submit" value="Submit" />
+						{{ form_end(form) }}
+					</div>
+			    </div>
+			</div>
+		</section>
+
+{% endblock body %}
