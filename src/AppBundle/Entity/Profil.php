@@ -33,7 +33,7 @@ class Profil
     private $maxTemperature;
 
     /**
-     * @ORM\OneToMany(targetEntity="Profil", mappedBy="pot")
+     * @ORM\OneToMany(targetEntity="Profil", mappedBy="profil")
      */
     private $pots;
 

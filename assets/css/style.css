@@ -24,6 +24,10 @@ body.fh5co-overflow {
   overflow-x: auto;
 }
 
+.fh5co-hero {
+  background-image: url(images/hero_bg.jpg);
+}
+
 a {
   color: #8dc63f;
   -webkit-transition: 0.5s;
