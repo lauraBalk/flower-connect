@@ -20,7 +20,7 @@ class User extends BaseUser
     protected $id;
 
     /**
-    * @ORM\ManyToMany(targetEntity="Pot",  cascade={"persist"})
+    * @ORM\OneToMany(targetEntity="Pot", mappedBy="user")
     */
     private $pots;
 

@@ -55,6 +55,12 @@ class Pot
      */
      private $profil;
 
+     /**
+     * @ORM\ManyToOne(targetEntity="User", inversedBy="pots")
+     * @ORM\JoinColumn(name="user_id", referencedColumnName="id")
+     */
+     private $user;
+
 
     public function __construct()
     {
@@ -235,5 +241,29 @@ class Pot
     public function getProfil()
     {
         return $this->profil;
+    }
+
+    /**
+     * Set user
+     *
+     * @param \AppBundle\Entity\User $user
+     *
+     * @return Pot
+     */
+    public function setUser(\AppBundle\Entity\User $user = null)
+    {
+        $this->user = $user;
+
+        return $this;
+    }
+
+    /**
+     * Get user
+     *
+     * @return \AppBundle\Entity\User
+     */
+    public function getUser()
+    {
+        return $this->user;
     }
 }

@@ -33,4 +33,28 @@ class AccountController extends Controller
             'user' => $user,
         ]);
     }
+
+    /**
+     * Route("/search-code")
+     */
+    public function searchCodeAction(Request $request)
+    {
+        $data = $request->request->get('data');
+        if ($data)
+        {
+            //search 
+            $pot = $this->getDoctrine()
+                    ->getManager()
+                    ->getRepository('AppBundle:Pot')
+                    ->findBy(array('code' => $data));
+            if ($pot && !$pot->getName())
+            {
+                //render form pot
+            }
+            else 
+            {
+                // return error for false code or pot already registered
+            }  
+        }
+    }
 }
