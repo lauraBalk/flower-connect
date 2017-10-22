@@ -1,0 +1,27 @@
+{% extends 'base.html.twig' %}
+{% block intro %}
+    <div class="fh5co-left-position">
+        <h2 class="animate-box">Welcome to your account</h2>
+         <p class="animate-box"><a href="https://vimeo.com/channels/staffpicks/93951774" class="btn btn-outline popup-vimeo btn-video"><i class="icon-play2"></i> Watch video</a> <a href="http://freehtml5.co" target="_blank" class="btn btn-primary">Visit FREEHTML5.co</a></p>
+    </div>
+{% endblock %}
+{% block body %}
+	<section id="fh5co-projects">
+            <div class="container">
+                <div class="row row-bottom-padded-md">
+                    <div class="col-md-6 col-md-offset-3 text-center">
+                        <h2 class="fh5co-lead animate-box">New pot</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xxs-12 animate-box">
+						{% include 'account\form-pot.html.twig' %}
+					</div>
+                </div>
+            </div>
+        </section>
+        <!-- END #fh5co-projects -->
+{% endblock %}
+{% block javascript %}
+
+{% endblock %}

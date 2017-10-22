@@ -1,0 +1,8 @@
+{{ form_start(form, {'method': 'post', 'action': path('app_account_editpot',  {'id': pot.id}), 'attr': {'class': 'app_account_editpot'}}) }}
+	<div class="form-field">
+		<label class="form-label" for="name">Name</label>
+    	{{ form_widget(form.name, {'attr': {'class': 'form-control'}}) }}
+    </div>
+	<br />
+    <input type="submit" class="col-md-12 col-sm-12 col-xxs-12 btn btn-primary" id="_submit" name="_submit" value="Submit" />
+{{ form_end(form) }}

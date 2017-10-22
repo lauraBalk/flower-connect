@@ -15,16 +15,19 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-xxs-12 animate-box">
-                        <form id="search_pot">
-                                <div class="form-group row">
-                                    <label for="inputCode" class="col-sm-2 col-form-label">Code</label>
-                                    <div class="col-sm-10">
-                                      <input type="text" class="form-control" id="inputCode" placeholder="Code">
-                                      <input type="hidden" class="form-control" id="inputLink" placeholder="Code" value="">
+                      <div id="form_div">
+                          <form id="search_pot">
+                                  <div class="form-group row">
+                                      <p></p>
+                                      <label for="inputCode" class="col-sm-2 col-form-label">Code</label>
+                                      <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="inputCode" placeholder="Code">
+                                        <input type="hidden" class="form-control" id="inputLink" placeholder="Code" value="{{ path('app_account_searchcode') }}">
+                                      </div>
                                     </div>
-                                  </div>
-                                 <input type="submit" class="col-md- col-sm-12 col-xxs-12 btn btn-primary" id="_submit" name="_submit" value="Search" />
-                        </form>
+                                   <input type="submit" class="col-md- col-sm-12 col-xxs-12 btn btn-primary" id="_submit" name="_submit" value="Search" />
+                          </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -32,31 +35,5 @@
         <!-- END #fh5co-projects -->
 {% endblock %}
 {% block javascript %}
-    <script>
-          $(function() {
-              $("#search_pot .submit").click(function() {
-              var code = $("#inputCode").val();
-              var link = $("#inputLink").val();
 
-            if(code=='')
-            {
-              $('.success').fadeOut(200).hide();
-              $('.error').fadeOut(200).show();
-            }
-            else
-            {
-              $.ajax({
-                type: "POST",
-                url: link,
-                data: code,
-                success: function(){
-                 $('.success').fadeIn(200).show();
-                 $('.error').fadeOut(200).hide();
-                }
-              });
-            }
-            return false;
-            });
-        });
-    </script>
 {% endblock %}

@@ -219,3 +219,36 @@
 
 
 }());
+
+ $(function() {
+ 	$("#search_pot").submit(function(e){
+    e.preventDefault();
+    var code = $("#inputCode").val();
+      var link = $("#inputLink").val();
+
+    if(code=='')
+    {
+      $('.success').fadeOut(200).hide();
+      $('.error').fadeOut(200).show();
+      console.log("error it's null");
+    }
+    else
+    {
+      $.ajax({
+        type: "POST",
+        url: link,
+        data: {'data':code},
+        success: function(data){
+         $('.success').fadeIn(200).show();
+         $('.error').fadeOut(200).hide();
+         $("#form_div").empty().html(data);
+        },
+        error: function(data){
+        $('#search_pot p').first().html('Mauvais code');
+       	console.log(data);
+        }
+      });
+    }
+    return false;
+    });
+ });

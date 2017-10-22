@@ -63,9 +63,9 @@ Encore
     .autoProvidejQuery()
 
     .autoProvideVariables({
-            $: 'jquery',
-            jQuery: 'jquery',
-            'window.jQuery': 'jquery'
+        $: 'jquery',
+        jQuery: 'jquery',
+        'window.jQuery': 'jquery',
     })
 
     .enableSourceMaps(!Encore.isProduction())

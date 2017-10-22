@@ -4,7 +4,10 @@ namespace AppBundle\Controller;
 
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use AppBundle\Entity\Pot;
+use AppBundle\Form\PotType;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\JsonResponse;
 /**
 * @Route("/account")
 */
@@ -35,26 +38,70 @@ class AccountController extends Controller
     }
 
     /**
-     * Route("/search-code")
+     *@Route("/search-code")
      */
     public function searchCodeAction(Request $request)
     {
+        $user = $this->get('security.token_storage')->getToken()->getUser();
+        //This is optional. Do not do this check if you want to call the same action using a regular request.
         $data = $request->request->get('data');
         if ($data)
         {
             //search 
-            $pot = $this->getDoctrine()
-                    ->getManager()
-                    ->getRepository('AppBundle:Pot')
-                    ->findBy(array('code' => $data));
-            if ($pot && !$pot->getName())
+            $em = $this->getDoctrine()->getManager();
+            $pot = $em->getRepository('AppBundle:Pot')
+                    ->findOneByCode($data);
+            if ($pot)
             {
-                //render form pot
+                $pot->setUser($user);
+                $em->flush();
+                $form = $this->editPotForm($pot);
+                return $this->render('account/search-code.html.twig', array(
+                    'form' => $form->createView(),
+                    'pot' => $pot,
+                ));
             }
             else 
             {
-                // return error for false code or pot already registered
+                 return new JsonResponse(array('message' => 'error!'), 400);
             }  
         }
+        else
+        {
+            return new JsonResponse(array('message' => 'error!'), 400);
+        }
+    }
+    /**
+     *@Route("/{id}/edit-pot")
+     */
+    public function editPotAction(Request $request, $id)
+    {
+         $em = $this->getDoctrine()->getManager();
+        $pot = $em->getRepository('AppBundle:Pot')
+                    ->find($id);
+         $form = $this->editPotForm($pot);
+         $form->handleRequest($request);
+        if ($form->isValid())
+        {
+            $em -> persist($pot);
+            $em -> flush();
+            $request->getSession()->getFlashBag()->add('notice', 'Pot bien modifiée.');
+            return $this->redirect($this->generateUrl('app_account_index'));
+        }
+        return $this->render('account/edit-pot.html.twig', array(
+            'form' => $form->createView(),
+            'pot' => $pot,
+        ));
+    }
+
+    private function editPotForm(Pot $pot)
+    {
+        $form = $this->createForm(PotType::class, $pot,
+                array(
+            'action' => $this->generateUrl('app_account_editpot',array('id' => $pot->getId())),
+            'method' => 'POST',
+        ));
+     
+        return $form;
     }
 }
