@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fd0a737-c11e-400b-bfed-eb267412db09" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,10 +39,10 @@
       <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="67" column="57" lean-forward="false" selection-start-line="67" selection-start-column="57" selection-end-line="67" selection-end-column="57" />
+            <state relative-caret-position="480">
+              <caret line="181" column="69" lean-forward="true" selection-start-line="181" selection-start-column="69" selection-end-line="181" selection-end-column="69" />
               <folding>
-                <marker date="1508751948706" expanded="true" signature="5635:5669" ph="..." />
+                <marker date="1508752670143" expanded="true" signature="5450:5484" ph="..." />
               </folding>
             </state>
           </provider>
@@ -214,12 +213,12 @@
       <workItem from="1508532435813" duration="998000" />
       <workItem from="1508578989560" duration="2856000" />
       <workItem from="1508664016142" duration="1225000" />
-      <workItem from="1508748049937" duration="3827000" />
+      <workItem from="1508748049937" duration="4549000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13267000" />
+    <option name="totallyTimeSpent" value="13989000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1535" height="904" extended-state="6" />
@@ -320,7 +319,7 @@
         <state relative-caret-position="2910">
           <caret line="194" column="0" lean-forward="false" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
           <folding>
-            <marker date="1508751948706" expanded="true" signature="5635:5669" ph="..." />
+            <marker date="1508752670143" expanded="true" signature="5450:5484" ph="..." />
           </folding>
         </state>
       </provider>
@@ -405,7 +404,7 @@
         <state relative-caret-position="2910">
           <caret line="194" column="0" lean-forward="false" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
           <folding>
-            <marker date="1508751948706" expanded="true" signature="5635:5669" ph="..." />
+            <marker date="1508752670143" expanded="true" signature="5450:5484" ph="..." />
           </folding>
         </state>
       </provider>
@@ -466,7 +465,7 @@
         <state relative-caret-position="3255">
           <caret line="217" column="0" lean-forward="false" selection-start-line="217" selection-start-column="0" selection-end-line="217" selection-end-column="0" />
           <folding>
-            <marker date="1508751948706" expanded="true" signature="5635:5669" ph="..." />
+            <marker date="1508752670143" expanded="true" signature="5450:5484" ph="..." />
           </folding>
         </state>
       </provider>
@@ -676,10 +675,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="67" column="57" lean-forward="false" selection-start-line="67" selection-start-column="57" selection-end-line="67" selection-end-column="57" />
+        <state relative-caret-position="480">
+          <caret line="181" column="69" lean-forward="true" selection-start-line="181" selection-start-column="69" selection-end-line="181" selection-end-column="69" />
           <folding>
-            <marker date="1508751948706" expanded="true" signature="5635:5669" ph="..." />
+            <marker date="1508752670143" expanded="true" signature="5450:5484" ph="..." />
           </folding>
         </state>
       </provider>
