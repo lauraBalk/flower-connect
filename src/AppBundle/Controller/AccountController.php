@@ -117,4 +117,14 @@ class AccountController extends Controller
      
         return $form;
     }
+
+    /**
+     * @Route("/photoPot")
+     */
+    public function photoPotAction(Request $request)
+    {
+        return $this->render('account/photo-pot.html.twig', [
+            'base_dir' => realpath($this->getParameter('kernel.project_dir')).DIRECTORY_SEPARATOR,
+        ]);
+    }
 }
