@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fd0a737-c11e-400b-bfed-eb267412db09" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/default/about-us.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,11 +23,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about-us.html.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="about-us.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/default/about-us.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="30" lean-forward="false" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+            <state relative-caret-position="240">
+              <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
               <folding>
                 <element signature="e#4659#4664#0#HTML" expanded="true" />
               </folding>
@@ -44,6 +42,19 @@
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="30" />
               <folding>
                 <marker date="1508752670143" expanded="true" signature="5450:5484" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="97" column="41" lean-forward="false" selection-start-line="97" selection-start-column="41" selection-end-line="97" selection-end-column="41" />
+              <folding>
+                <marker date="1508754411324" expanded="true" signature="398:415" ph="{% block title ...%}" />
+                <marker date="1508754411324" expanded="true" signature="8315:8333" ph="..." />
               </folding>
             </state>
           </provider>
@@ -74,12 +85,12 @@
         <option value="$PROJECT_DIR$/app/Resources/views/account/edit.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/account/index.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/account/new-pot.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/AccountController.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/about-us.html.twig.html" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/about-us.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
       </list>
     </option>
   </component>
@@ -225,12 +236,12 @@
       <workItem from="1508532435813" duration="998000" />
       <workItem from="1508578989560" duration="2856000" />
       <workItem from="1508664016142" duration="1225000" />
-      <workItem from="1508748049937" duration="5896000" />
+      <workItem from="1508748049937" duration="5974000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15336000" />
+    <option name="totallyTimeSpent" value="15414000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1535" height="904" extended-state="6" />
@@ -304,8 +315,8 @@
         <state relative-caret-position="2730">
           <caret line="182" column="120" lean-forward="false" selection-start-line="182" selection-start-column="120" selection-end-line="182" selection-end-column="120" />
           <folding>
-            <marker date="1508751640885" expanded="true" signature="398:415" ph="{% block title ...%}" />
-            <marker date="1508751640885" expanded="true" signature="8295:8313" ph="..." />
+            <marker date="1508754411324" expanded="true" signature="398:415" ph="{% block title ...%}" />
+            <marker date="1508754411324" expanded="true" signature="8315:8333" ph="..." />
           </folding>
         </state>
       </provider>
@@ -389,8 +400,8 @@
         <state relative-caret-position="2730">
           <caret line="182" column="120" lean-forward="false" selection-start-line="182" selection-start-column="120" selection-end-line="182" selection-end-column="120" />
           <folding>
-            <marker date="1508751640885" expanded="true" signature="398:415" ph="{% block title ...%}" />
-            <marker date="1508751640885" expanded="true" signature="8295:8313" ph="..." />
+            <marker date="1508754411324" expanded="true" signature="398:415" ph="{% block title ...%}" />
+            <marker date="1508754411324" expanded="true" signature="8315:8333" ph="..." />
           </folding>
         </state>
       </provider>
@@ -450,8 +461,8 @@
         <state relative-caret-position="2400">
           <caret line="160" column="120" lean-forward="false" selection-start-line="160" selection-start-column="120" selection-end-line="160" selection-end-column="120" />
           <folding>
-            <marker date="1508751640885" expanded="true" signature="398:415" ph="{% block title ...%}" />
-            <marker date="1508751640885" expanded="true" signature="8295:8313" ph="..." />
+            <marker date="1508754411324" expanded="true" signature="398:415" ph="{% block title ...%}" />
+            <marker date="1508754411324" expanded="true" signature="8315:8333" ph="..." />
           </folding>
         </state>
       </provider>
@@ -618,17 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2355">
-          <caret line="157" column="63" lean-forward="false" selection-start-line="157" selection-start-column="63" selection-end-line="157" selection-end-column="63" />
-          <folding>
-            <marker date="1508751640885" expanded="true" signature="398:415" ph="{% block title ...%}" />
-            <marker date="1508751640885" expanded="true" signature="8295:8313" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/AccountController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1560">
@@ -677,6 +677,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/about-us.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding>
+            <element signature="e#4659#4664#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -687,12 +697,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/about-us.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="30" lean-forward="false" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+        <state relative-caret-position="600">
+          <caret line="97" column="41" lean-forward="false" selection-start-line="97" selection-start-column="41" selection-end-line="97" selection-end-column="41" />
           <folding>
-            <element signature="e#4659#4664#0#HTML" expanded="true" />
+            <marker date="1508754411324" expanded="true" signature="398:415" ph="{% block title ...%}" />
+            <marker date="1508754411324" expanded="true" signature="8315:8333" ph="..." />
           </folding>
         </state>
       </provider>
