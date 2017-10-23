@@ -51,7 +51,7 @@ class AccountController extends Controller
             $em = $this->getDoctrine()->getManager();
             $pot = $em->getRepository('AppBundle:Pot')
                     ->findOneByCode($data);
-            if ($pot)
+            if ($pot && $pot->getUser() == null)
             {
                 $pot->setUser($user);
                 $em->flush();
