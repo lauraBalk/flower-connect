@@ -119,7 +119,7 @@ class AccountController extends Controller
     }
 
     /**
-     * @Route("/photoPot")
+     * @Route("/photoPot", name="photoPot")
      */
     public function photoPotAction(Request $request)
     {
