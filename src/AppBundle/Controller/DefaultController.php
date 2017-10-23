@@ -28,4 +28,15 @@ class DefaultController extends Controller
             'base_dir' => realpath($this->getParameter('kernel.project_dir')).DIRECTORY_SEPARATOR,
         ]);
     }
+
+    /**
+     * @Route("/aboutUs", name="aboutUs")
+     * @return \Symfony\Component\HttpFoundation\Response
+     */
+    public function aboutUsAction(Request $request)
+    {
+        return $this->render('default/about-us.html.twig', [
+            'base_dir' => realpath($this->getParameter('kernel.project_dir')).DIRECTORY_SEPARATOR,
+        ]);
+    }
 }
