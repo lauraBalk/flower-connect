@@ -94,6 +94,19 @@ class AccountController extends Controller
         ));
     }
 
+    /**
+     *@Route("/{id}/stat-pot")
+     */
+    public function statPotAction(Request $request, $id)
+    {
+         $em = $this->getDoctrine()->getManager();
+        $pot = $em->getRepository('AppBundle:Pot')
+                    ->find($id);
+        return $this->render('account/stat-pot.html.twig', array(
+            'pot' => $pot,
+        ));
+    }
+
     private function editPotForm(Pot $pot)
     {
         $form = $this->createForm(PotType::class, $pot,
