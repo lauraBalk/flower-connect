@@ -75,3 +75,7 @@ fos_user:
     from_email:
         address:        noreply@example.com
         sender_name:    Pouet
+
+cmen_google_charts:
+    version: "current"
+    language: "fr"
