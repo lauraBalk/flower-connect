@@ -104,38 +104,60 @@ class AccountController extends Controller
         $pot = $em->getRepository('AppBundle:Pot')
                     ->find($id);
 
-        $avg = $this->getDoctrine()
+        $avgMoisture = $this->getDoctrine()
             ->getRepository('AppBundle:Pot')
             ->getAvgMoistureByDay($id);
 
-        $columnChart = new ColumnChart();
-        $dataChart = array();
+        $moistureChart = new ColumnChart();
+        $dataMoistureChart = array();
 
-        $dataChart[0] = ['1', 'Moisture'];
+        $dataMoistureChart[0] = ['1', 'Moisture'];
         for ($i=1; $i <= date("t", strtotime("last day of this month")) ; $i++) {
-            $array_search = array_search($i,  array_column($avg, 'day'));
+            $array_search = array_search($i,  array_column($avgMoisture, 'day'));
             
             if (is_bool($array_search) === false)
             {
-                var_dump($array_search);
-                 $dataChart[$i] = [$i, $avg[$array_search]['avg_moisture']];
+                 $dataMoistureChart[$i] = [$i, $avgMoisture[$array_search]['avg_moisture']];
             }
             else
             {
-                 $dataChart[$i] = [$i, 0];
+                 $dataMoistureChart[$i] = [$i, 0];
             }
            
         }
-        $columnChart->getData()->setArrayToDataTable(
+        $moistureChart->getData()->setArrayToDataTable($dataMoistureChart);
+        $moistureChart->getOptions()->getLegend()->setPosition('top');
+        $moistureChart->getOptions()->setWidth(850);
+        $moistureChart->getOptions()->setHeight(450);
+
+        $avgTemperature = $this->getDoctrine()
+            ->getRepository('AppBundle:Pot')
+            ->getAvgTemperatureByDay($id);
+
+        $temperatureChart = new ColumnChart();
+        $dataTemperatureChart = array();
+
+        $dataTemperatureChart[0] = ['1', 'temperatureChart'];
+        for ($i=1; $i <= date("t", strtotime("last day of this month")) ; $i++) {
+            $array_search = array_search($i,  array_column($avgTemperature, 'day'));
             
-                $dataChart
-            
-        );
-        $columnChart->getOptions()->getLegend()->setPosition('top');
-        $columnChart->getOptions()->setWidth(850);
-        $columnChart->getOptions()->setHeight(450);
+            if (is_bool($array_search) === false)
+            {
+                 $dataTemperatureChart[$i] = [$i, $avgTemperature[$array_search]['avg_temperature']];
+            }
+            else
+            {
+                 $dataTemperatureChart[$i] = [$i, 0];
+            }
+           
+        }
+        $temperatureChart->getData()->setArrayToDataTable($dataTemperatureChart);
+        $temperatureChart->getOptions()->getLegend()->setPosition('top');
+        $temperatureChart->getOptions()->setWidth(850);
+        $temperatureChart->getOptions()->setHeight(450);
             return $this->render('account/stat-pot.html.twig', array(
-                'chart' => $columnChart,
+                'moistureChart' => $moistureChart,
+                'temperatureChart' => $temperatureChart,
             ));
         }
 

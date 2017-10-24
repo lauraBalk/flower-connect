@@ -26,8 +26,9 @@ body.fh5co-overflow {
 
 #fh5co-hero {
   background-image: url(../images/into-flower.jpg);
-  height: 468px;
+  height: 100px;
 }
+
 
 a {
   color: #8dc63f;
@@ -338,7 +339,7 @@ body {
 }
 @media screen and (max-width: 480px) {
   #fh5co-hero {
-    height: 450px;
+    height: 10px;
   }
 }
 #fh5co-hero .fh5co-overlay {

@@ -22,4 +22,22 @@ class PotRepository extends EntityRepository
 
 			return $queryAvgScore->getResult();
     }
+
+    public function getAvgTemperatureByDay($id)
+    {
+            $queryAvgScore = $this->createQueryBuilder('p')
+            	->join('p.temperatures', 't')
+            	->addSelect('t')
+				->select("avg(t.value) as avg_temperature, SUBSTRING(t.date, 9, 2) as day")
+				->where('t.id = :id')
+				->andWhere('t.date >= :dateStart')
+				->andWhere('t.date <= :dateEnd')
+				->setParameter('id', $id)
+				->setParameter('dateStart', date("Y-m-d 00:00:00", strtotime("first day of this month")))
+				->setParameter('dateEnd', date("Y-m-d 00:00:00", strtotime("last day of this month")))
+				->groupBy('day')
+				->getQuery();
+
+			return $queryAvgScore->getResult();
+    }
 }

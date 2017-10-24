@@ -80,7 +80,7 @@
             </div>
         </section>
         <!-- #fh5co-header -->
-        <section id="fh5co-hero" class="js-fullheight" data-next="yes">
+        <section id="fh5co-hero" class="{% if app.request.get('_route') != 'homepage' %}no-{% endif %}js-fullheight" data-next="yes">
             <div class="fh5co-overlay"></div>
             <div class="container">
                 <div class="fh5co-intro js-fullheight">
@@ -95,12 +95,14 @@
                     </div>
                 </div>
             </div>
+            {% if app.request.get('_route') == 'homepage' %}
             <div class="fh5co-learn-more animate-box">
                 <a href="{{ path('aboutUs') }}" class="scroll-btn">
                     <span class="text">Explore more about us</span>
                     <span class="arrow"><i class="icon-chevron-down"></i></span>
                 </a>
             </div>
+            {% endif %}
         </section>
         <!-- END #fh5co-hero -->
         {% block body %}{% endblock %}
@@ -194,6 +196,7 @@
     
    <script src="{{ asset('build/app.js') }}"></script>
    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
    {% block javascript %}{% endblock %}
 
     
