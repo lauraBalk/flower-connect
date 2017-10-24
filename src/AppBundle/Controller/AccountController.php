@@ -4,6 +4,7 @@ namespace AppBundle\Controller;
 
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use CMEN\GoogleChartsBundle\GoogleCharts\Charts\ColumnChart;
 use AppBundle\Entity\Pot;
 use AppBundle\Form\PotType;
 use Symfony\Component\HttpFoundation\Request;
@@ -95,17 +96,48 @@ class AccountController extends Controller
     }
 
     /**
-     *@Route("/{id}/stat-pot")
+     *@Route("/{id}/state-pot")
      */
     public function statPotAction(Request $request, $id)
     {
-         $em = $this->getDoctrine()->getManager();
+        $em = $this->getDoctrine()->getManager();
         $pot = $em->getRepository('AppBundle:Pot')
                     ->find($id);
-        return $this->render('account/stat-pot.html.twig', array(
-            'pot' => $pot,
-        ));
-    }
+
+        $avg = $this->getDoctrine()
+            ->getRepository('AppBundle:Pot')
+            ->getAvgMoistureByDay($id);
+
+        $columnChart = new ColumnChart();
+        $dataChart = array();
+
+        $dataChart[0] = ['1', 'Moisture'];
+        for ($i=1; $i <= date("t", strtotime("last day of this month")) ; $i++) {
+            $array_search = array_search($i,  array_column($avg, 'day'));
+            
+            if (is_bool($array_search) === false)
+            {
+                var_dump($array_search);
+                 $dataChart[$i] = [$i, $avg[$array_search]['avg_moisture']];
+            }
+            else
+            {
+                 $dataChart[$i] = [$i, 0];
+            }
+           
+        }
+        $columnChart->getData()->setArrayToDataTable(
+            
+                $dataChart
+            
+        );
+        $columnChart->getOptions()->getLegend()->setPosition('top');
+        $columnChart->getOptions()->setWidth(850);
+        $columnChart->getOptions()->setHeight(450);
+            return $this->render('account/stat-pot.html.twig', array(
+                'chart' => $columnChart,
+            ));
+        }
 
     private function editPotForm(Pot $pot)
     {

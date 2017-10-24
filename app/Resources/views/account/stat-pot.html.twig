@@ -15,7 +15,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-xxs-12 animate-box">
-						
+						<div id="chart"></div>
 					</div>
                 </div>
             </div>
@@ -23,5 +23,8 @@
         <!-- END #fh5co-projects -->
 {% endblock %}
 {% block javascript %}
+    <script type="text/javascript">
+        {{ gc_draw(chart, 'chart') }}
+    </script>
 
 {% endblock %}
