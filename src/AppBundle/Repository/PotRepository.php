@@ -29,7 +29,7 @@ class PotRepository extends EntityRepository
             	->join('p.temperatures', 't')
             	->addSelect('t')
 				->select("avg(t.value) as avg_temperature, SUBSTRING(t.date, 9, 2) as day")
-				->where('t.id = :id')
+				->where('p.id = :id')
 				->andWhere('t.date >= :dateStart')
 				->andWhere('t.date <= :dateEnd')
 				->setParameter('id', $id)
