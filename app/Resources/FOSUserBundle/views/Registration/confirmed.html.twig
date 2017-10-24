@@ -1,18 +1,12 @@
 {% extends "::base.html.twig"%}
 
-{% block intro %}
-    <div class="fh5co-left-position">
-        <h2 class="animate-box">Sign up on your interface flower-connect</h2>
-        <p class="animate-box"><a href="{{ path('fos_user_security_login') }}" class="btn btn-primary">Already registered ? go Login !</a></p>
-    </div>
-{% endblock %}
-
 {% block body %}
 	<section id="fh5co-projects">
 			<div class="container">
 			    <div class="row row-bottom-padded-md">
 			        <div class="col-md-6 col-md-offset-3 text-center">
 			            <h2 class="fh5co-lead animate-box">Confirmation</h2>
+			            <p class="animate-box"><a href="{{ path('fos_user_security_login') }}" class="btn btn-primary">Already registered ? go Login !</a></p>
 			        </div>
 			    </div>
 			    <div class="row">
