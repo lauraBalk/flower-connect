@@ -25,6 +25,7 @@ Encore
     './assets/js/main-switcher.js',
     './assets/js/main.js',
     './assets/js/jquery.cookie.js',
+    './assets/js/bootstrap-datepicker.js',
     './assets/js/main-layout.js'
     ])
 
@@ -34,15 +35,8 @@ Encore
     './assets/css/icomoon.css',
     './assets/css/magnific-popup.css',
     './assets/css/bootstrap.css',
-    './assets/css/blue.css',
-    './assets/css/style.css',
-    './assets/css/orange.css',
-    './assets/css/pink.css',
-    './assets/css/purple.css',
-    './assets/css/red.css',
     './assets/css/simple-line-icons.css',
-    './assets/css/turquoise.css',
-    './assets/css/yellow.css',
+    './assets/css/datepicker.css',
 
     ])
 

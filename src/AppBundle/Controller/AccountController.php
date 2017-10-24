@@ -89,7 +89,7 @@ class AccountController extends Controller
             $request->getSession()->getFlashBag()->add('notice', 'Pot bien modifiée.');
             return $this->redirect($this->generateUrl('app_account_index'));
         }
-        return $this->render('account/edit-pot.html.twig', array(
+        return $this->render('account/edit.html.twig', array(
             'form' => $form->createView(),
             'pot' => $pot,
         ));
@@ -137,7 +137,7 @@ class AccountController extends Controller
         $temperatureChart = new ColumnChart();
         $dataTemperatureChart = array();
 
-        $dataTemperatureChart[0] = ['1', 'temperatureChart'];
+        $dataTemperatureChart[0] = ['1', 'temprature'];
         for ($i=1; $i <= date("t", strtotime("last day of this month")) ; $i++) {
             $array_search = array_search($i,  array_column($avgTemperature, 'day'));
             

@@ -11,13 +11,15 @@
                 <div class="row">
                     {% for pot in user.pots %}
                         <div class="col-md-4 col-sm-6 col-xxs-12 animate-box">
-                            <a href="images/img_1.jpg" class="fh5co-project-item image-popup">
+                            <div class="fh5co-project-item">
                                 <img src="images/img_1.jpg" alt="Image" class="img-responsive">
                                 <div class="fh5co-text">
                                     <h2>{{ pot.name }}</h2>
                                     <p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+                                    <a href="{{ path('app_account_editpot', {id: pot.id })}}" class="btn btn-primary">Edit pot</a>
+                                    <a href="{{ path('app_account_statpot', {id: pot.id })}}" class="btn btn-primary">View stat pot</a>
                                 </div>
-                            </a>
+                            </div>
                         </div>
                     {% endfor %}          
                 </div>
