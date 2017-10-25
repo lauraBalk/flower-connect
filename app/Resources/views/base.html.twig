@@ -83,8 +83,8 @@
         <section id="fh5co-hero" class="{% if app.request.get('_route') != 'homepage' %}no-{% endif %}js-fullheight" data-next="yes">
             <div class="fh5co-overlay"></div>
             <div class="container">
-                <div class="fh5co-intro {% if app.request.get('_route') != 'homepage' %}no-{% endif %}js-fullheight">
-                    <div class="fh5co-intro-text" {% if app.request.get('_route') != 'homepage' %}style="display:none;"{% endif %}>
+                <div class="fh5co-intro {% if app.request.get('_route') != 'homepage' %}no-width no-{% endif %}js-fullheight">
+                    <div ²="fh5co-intro-text" {% if app.request.get('_route') != 'homepage' %}style="display:none;"{% endif %}>
                         <!-- 
                             INFO:
                             Change the class to 'fh5co-right-position' or 'fh5co-center-position' to change the layout position

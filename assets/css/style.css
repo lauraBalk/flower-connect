@@ -362,6 +362,10 @@ body {
   z-index: 10;
   position: relative;
 }
+
+.no-width{
+  width:0% !important;
+}
 @media screen and (max-width: 480px) {
   #fh5co-hero .fh5co-intro {
     height: 450px;
